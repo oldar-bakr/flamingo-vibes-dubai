@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from '../fontawesome';
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-800 text-white py-4 fixed bottom-0 w-full">
+    <footer className="bg-gray-800 text-white py-4 w-full mb-16">
       <div className="container mx-auto flex flex-col items-center">
         <p className="mb-4">Habibi, Travel To Dubai!</p>
         <div className="flex mb-4">

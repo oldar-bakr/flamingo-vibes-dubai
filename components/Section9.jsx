@@ -4,7 +4,7 @@ import React from 'react';
 
 const Section9 = () => {
   return (
-    <div className="container mx-auto px-4 py-8">
+    <div className="container mx-auto px-4 py-8 mb-16"> {/* Add mb-16 for bottom margin */}
       <div className="flex flex-col lg:flex-row">
         <div className="lg:w-1/2 mb-4 lg:mb-0">
           <img src="https://package-2.flamingovibe.com/_next/image?url=%2Fimages%2Flogo.png&w=1920&q=75" alt="Your Image" className="w-full h-auto lg:w-1/2 lg:h-auto align-middle" />
