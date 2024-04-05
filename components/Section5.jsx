@@ -3,10 +3,10 @@ import React from 'react';
 
 const Section5 = () => {
   return (
-    <div className="bg-gray-100 py-8">
-      <div className="container mx-auto px-4">
-        <h2 className="text-3xl font-bold text-center mb-8">Section 5</h2>
-        <p className="text-lg text-center">Section 5 content goes here.</p>
+    <div className="bg-dark px16">
+      <div className="container mx-auto px-8">
+        <h3 className="text-white font-black text-[3rem] text-left w-full">Section 5</h3>
+        <p className="text-white text-[1rem] font-normal my-[20px]">Section 5 content goes here.</p>
       </div>
     </div>
   );
