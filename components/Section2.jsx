@@ -5,7 +5,7 @@ const Section2 = () => {
     <div className="bg-black pt-40 md:pt-100 pb-40">
       <div className="container">
         <div className="flex flex-col items-center justify-center">
-          <h3 className="text-white w-full text-4xl md:text-8xl font-black text-center">DON'T MISS OUT!</h3>
+          <h3 className="text-white w-full text-4xl md:text-8xl font-black text-center">DON&apos;T MISS OUT!</h3>
           <div className="flex flex-wrap justify-center">
             <div className="flex flex-col justify-center items-center w-full md:w-auto">
               <div><h2 className="text-orange-500 text-5xl md:text-7xl font-black inline-block">00</h2></div>

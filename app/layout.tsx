@@ -10,12 +10,10 @@ const pop = Poppins({
   subsets: ["latin"],
 });
 
-const YourPage = () => { 
+const YourPage = ({ children }: { children: any }) => {
   return (
     <div className={`${pop.variable}`}>
-      <div className="font-pop">
-        <Home/>
-      </div>
+      <div className="font-pop">{children}</div>
     </div>
   );
 };
