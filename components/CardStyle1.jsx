@@ -1,15 +1,20 @@
-import React from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faPiedPiper } from '@fortawesome/free-brands-svg-icons';
+import React from "react";
 
-const CardStyle1 = () => {
+const CardStyle1 = ({ imageSrc, title, text }) => {
   return (
-    <div className='bg-blue m-8'>
-        <h1>Oldar 
-        </h1>
-        <FontAwesomeIcon icon={faPiedPiper} size='2x' />
+    <div className="max-w-xs bg-white shadow-lg rounded-lg overflow-hidden mx-auto m-16">
+      <div className="relative -top-20 z-10">
+        <img
+          className="w-full h-48 object-cover"
+          src={imageSrc}
+          alt="Card Image"
+        />
+      </div>
+      <div className="p-8 relative z-[1]">
+        <h2 className="text-3xl font-bold text-orange1 text-center">{title}</h2>
+        <p className="mt-2 text-base text-dark1 text-center">{text}</p>
+      </div>
     </div>
-    
   );
 };
 

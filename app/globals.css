@@ -1,3 +1,43 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.scale1 {
+  animation: scale1 1s infinite;
+  animation-direction: alternate;
+}
+
+.scale2 {
+  animation: scale2 1s infinite;
+  animation-direction: alternate;
+}
+
+@keyframes scale1 {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0.9);
+  }
+}
+
+@keyframes scale2 {
+  0% {
+    transform: scale(2);
+  }
+  100% {
+    transform: scale(2);
+  }
+}
+
+.swiper-button-prev {
+  color: #fa541c;
+}
+
+.swiper-button-next {
+  color: #fa541c;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #fa541c !important;
+}

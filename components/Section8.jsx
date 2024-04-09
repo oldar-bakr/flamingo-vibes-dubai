@@ -1,58 +1,44 @@
-// Section8.js
-
-import React from 'react';
+import React from "react";
+import IconWithTitle from "./IconWithTitle";
 
 const Section8 = () => {
   return (
-    <div className="bg-black text-white py-8">
-      <div className="container mx-auto px-4">
-        {/* Section header */}
-        <div className="flex flex-col lg:flex-row mb-8">
-          <div className="lg:w-1/2 lg:pr-8">
-            <h2 className="text-2xl font-bold">Section 8 Header</h2>
-          </div>
-          <div className="lg:w-1/2 lg:pl-8">
-            <img src="your-image-url.jpg" alt="Image" className="w-full h-auto lg:w-1/2 lg:h-auto" />
-          </div>
-        </div>
-        
-        {/* Logos and descriptions */}
-        <div className="flex flex-col lg:flex-row">
-          {/* Logos */}
-          <div className="lg:w-1/4 mb-4 lg:mb-0">
-            <img src="logo1-url.jpg" alt="Logo 1" className="w-full h-auto" />
-          </div>
-          <div className="lg:w-1/4 mb-4 lg:mb-0">
-            <img src="logo2-url.jpg" alt="Logo 2" className="w-full h-auto" />
-          </div>
-          <div className="lg:w-1/4 mb-4 lg:mb-0">
-            <img src="logo3-url.jpg" alt="Logo 3" className="w-full h-auto" />
-          </div>
-          <div className="lg:w-1/4 mb-4 lg:mb-0">
-            <img src="logo4-url.jpg" alt="Logo 4" className="w-full h-auto" />
-          </div>
-          
-          {/* Descriptions */}
-          <div className="lg:w-3/4 lg:pl-8">
-            <div className="mb-4">
-              <h3 className="text-xl font-bold">Logo 1 Title</h3>
-              <p>Description for Logo 1 goes here.</p>
-            </div>
-            <div className="mb-4">
-              <h3 className="text-xl font-bold">Logo 2 Title</h3>
-              <p>Description for Logo 2 goes here.</p>
-            </div>
-            <div className="mb-4">
-              <h3 className="text-xl font-bold">Logo 3 Title</h3>
-              <p>Description for Logo 3 goes here.</p>
-            </div>
-            <div>
-              <h3 className="text-xl font-bold">Logo 4 Title</h3>
-              <p>Description for Logo 4 goes here.</p>
-            </div>
-          </div>
-        </div>
+    <div className="pt-[10rem] mt-[4rem] pb-[5rem] relative z-[0] bg-dark1 text-white p-16 flex items-center justify-center">
+      <div className="w-1/2 px-8">
+        <h2 className="text-white font-black text-[2.5rem] md:text-[3rem]">
+          The Cherry On Top!
+        </h2>
+        <IconWithTitle
+          imageUrl={"https://package-2.flamingovibe.com/svgs/services/1.svg"}
+          title={"Accommodation"}
+          text={
+            "4 or 5 nights in the best hotels of Dubai, Breakfast included!"
+          }
+        />
+        <IconWithTitle
+          imageUrl={"https://package-2.flamingovibe.com/svgs/services/2.svg"}
+          title={"Transportation"}
+          text={"Luxurious Private car transfer to and from the airport."}
+        />
+        <IconWithTitle
+          imageUrl={"https://package-2.flamingovibe.com/svgs/services/3.svg"}
+          title={"Tours"}
+          text={"Modern Dubai city tour or Classic Dubai city tour."}
+        />
+        <IconWithTitle
+          imageUrl={"https://package-2.flamingovibe.com/svgs/services/4.svg"}
+          title={"Support"}
+          text={"Full-support care throughout your entire trip"}
+        />
       </div>
+      <img
+        src="https://package-2.flamingovibe.com/_next/image?url=%2Fimages%2Flocations%2F1.png&w=1920&q=75"
+        alt="Your Image"
+        className="w-1/2 rounded-2xl h-[600px]"
+        width="700"
+        height="700"
+        loading="lazy"
+      />
     </div>
   );
 };
