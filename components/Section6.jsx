@@ -14,7 +14,7 @@ const Section6 = () => {
               traditional Emirati dishes or try international cuisine, there's a
               delicious bite for everyone!
             </p>
-            <button className="                rounded-2xl bg-orange1 text-white px-[30px] py-[10px] text-[2rem] font-bold ">
+            <button className="rounded-2xl bg-orange1 text-white px-[30px] py-[10px] text-[2rem] font-bold ">
               BOOK NOW
             </button>
           </div>

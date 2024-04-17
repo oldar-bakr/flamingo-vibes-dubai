@@ -1,3 +1,5 @@
+import React from "react";
+
 const Section4 = () => {
   return (
     <div className="bg-dark1 text-white p-8">
