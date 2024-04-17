@@ -4,7 +4,7 @@ const Section4 = () => {
   return (
     <div className="bg-dark1 text-white p-8">
       <div className="container mx-auto p-6 md:p-16 my-14">
-        <h2 className="text-5xl md:text-7xl font-bold text-left mb-4 leading-relaxed md:leading-none md:text-s ">
+        <h2 className="text-4xl md:text-7xl font-bold text-left mb-4 leading-relaxed md:leading-none md:text-s ">
           HOW DUBAI ATTRACTS <span className="text-orange1 ">14M</span> ANNUAL
           TOURISTS?
         </h2>
