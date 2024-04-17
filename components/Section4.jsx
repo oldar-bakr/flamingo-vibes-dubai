@@ -11,8 +11,8 @@ const Section4 = () => {
         <p className="text-lg md:text-2xl text-left mb-4 leading-relaxed">
           Dubai has 14 million tourists every year because it mixes modern vibes
           with its traditional heritage effortlessly. With famous spots like
-          Burj Khalifa and Dubai Marina, tourists enjoy the city's impressive
-          architecture. The Dubai Mall's grandness and the cultural richness at
+          Burj Khalifa and Dubai Marina, tourists enjoy the citys impressive
+          architecture. The Dubai Malls grandness and the cultural richness at
           Dubai Creek and Museum add to the appeal, making it an unforgettable
           destination for everyone that visits it, so what are you waiting for?
         </p>
