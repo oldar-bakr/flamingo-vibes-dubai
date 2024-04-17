@@ -11,7 +11,7 @@ const Section6 = () => {
             </h2>
             <p className="text-lg mb-2 text-white py-4 leading-normal">
               Dubai is a mix of cultures and food choices. You can enjoy
-              traditional Emirati dishes or try international cuisine, there's a
+              traditional Emirati dishes or try international cuisine, theres a
               delicious bite for everyone!
             </p>
             <button className="rounded-2xl bg-orange1 text-white px-[30px] py-[10px] text-[2rem] font-bold ">
