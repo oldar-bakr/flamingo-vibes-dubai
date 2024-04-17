@@ -3,16 +3,16 @@ import React from "react";
 const Section4 = () => {
   return (
     <div className="bg-dark1 text-white p-8">
-      <div className="container mx-auto p-16 my-14">
-        <h2 className="text-7xl font-bold text-left mb-4 leading-relaxed">
+      <div className="container mx-auto p-6 md:p-16 my-14">
+        <h2 className="text-5xl md:text-7xl font-bold text-left mb-4 leading-relaxed md:leading-none md:text-s ">
           HOW DUBAI ATTRACTS <span className="text-orange1 ">14M</span> ANNUAL
           TOURISTS?
         </h2>
-        <p className="text-2xl text-left  mb-4 leading-relaxed">
+        <p className="text-lg md:text-2xl text-left mb-4 leading-relaxed">
           Dubai has 14 million tourists every year because it mixes modern vibes
           with its traditional heritage effortlessly. With famous spots like
-          Burj Khalifa and Dubai Marina, tourists enjoy the citys impressive
-          architecture. The Dubai Malls grandness and the cultural richness at
+          Burj Khalifa and Dubai Marina, tourists enjoy the city's impressive
+          architecture. The Dubai Mall's grandness and the cultural richness at
           Dubai Creek and Museum add to the appeal, making it an unforgettable
           destination for everyone that visits it, so what are you waiting for?
         </p>
