@@ -3,7 +3,7 @@ import IconWithTitle from "./IconWithTitle";
 
 const Section8 = () => {
   return (
-    <div className="pt-[10rem] mt-[4rem] pb-[5rem] relative z-[0] bg-dark1 text-white p-16 flex items-center justify-center">
+    <div className="pt-[10rem] mt-[4rem] pb-[5rem] relative z-[0] bg-dark1 text-white p-16 flex flex-wrap items-center justify-center">
       <div className="w-1/2 px-8">
         <h2 className="text-white font-black text-[2.5rem] md:text-[3rem]">
           The Cherry On Top!
